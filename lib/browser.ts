@@ -713,7 +713,7 @@ export class ProtractorBrowser {
    * await browser.get('https://angularjs.org/');
    * expect(await browser.getCurrentUrl()).toBe('https://angularjs.org/');
    *
-   * @param {string} destination Destination URL.
+   * @param {string=} opt_destination Destination URL. Uses 'config.baseUrl' by default
    * @param {number=} opt_timeout Number of milliseconds to wait for Angular to
    *     start.
    */
